@@ -1,0 +1,29 @@
+:root {
+	--stone: #c8cbcb;
+	--charcol: #646668;
+	--obseiden: #49494a;
+	color-scheme: light dark;
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	font-synthesis: none;
+
+	background-color: var(--stone);
+	color: var(--charcol);
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+button:focus,
+button:focus-visible {
+	outline: 2px auto -webkit-focus-ring-color;
+}
